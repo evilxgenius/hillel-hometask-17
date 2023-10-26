@@ -28,7 +28,7 @@ function calcSum(memo = 0) {
         //   Parent: Env of calcSum
         // }
         // Таким чином, при визові, ця анонімна функція буде мати доступ
-        // до змінних на функцій, які об'явлені в Env of calcSum та Global Env
+        // до змінних та функцій, які об'явлені в Env of calcSum та Global Env
         // Ланцюг: Env of this arrow anonymous function -> Env of calcSum -> Global Env
         // Цей ланцюг буде існувати в пам'яті, до тих пір поки буде існувати змінна в яку
         // буде записана ця анонімна функція.
